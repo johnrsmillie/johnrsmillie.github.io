@@ -1,0 +1,110 @@
+body {
+	font-family: Verdana;
+	background-color: #000000;
+	margin: 0;
+	padding: 0;
+	background-image: url("hieroglyphics.png");
+	
+	
+
+}
+#wrap {
+	width: 70%;
+	margin: 0 auto;
+}
+
+header img {
+	width:75%;
+}
+
+
+header {
+	background-color: #ffea9e;
+	padding: 10px;
+	text-align: center;
+	background-image: linear-gradient(#000000, #00874e);
+
+	
+}
+
+nav {
+	background-color: #00350f;
+	padding: 10px;
+	text-align: center;
+	font-size: 20px;
+	font-family: Comic Sans MS;
+	
+}
+
+nav li {
+	display: inline;
+	/*padding: 20px;*/
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+nav a {
+	color: #14ff00;
+	text-decoration: none;
+	padding: 10px 30px;
+}
+
+nav a:hover {
+	color:black;
+	background-color: #0da300;
+}
+
+section {
+	color: white;
+	padding: 10px;
+	background-color: black;
+	overflow: auto;
+	font-family: Comic Sans MS
+	
+}
+
+.bgpic {
+	width: 40%;
+	float: right;
+	/*only can float left and right, NOT MIDDLE*/
+}
+
+.bgpic1 {
+	width: 5%;
+	float:top left;
+	
+	/*only can float left and right, NOT MIDDLE*/
+}
+.bgpic2 {
+	width: 30%;
+	float:left;
+	
+	/*only can float left and right, NOT MIDDLE*/
+}
+
+
+.button {
+	background-color:green;
+	color: #14ff00;
+	text-decoration: none;
+	padding: 10px;
+	border-radius: 7px;
+	margin: 15px 0;
+	display:inline-block;
+}
+
+a.button:hover{
+	background-color: #14ff00;
+	color: black;
+}
+
+
+footer {
+	background-color: #00350f;
+	color: white;
+	padding: 10px;
+	text-align: center;
+}
