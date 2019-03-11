@@ -1,0 +1,57 @@
+html, body {
+
+	font-family: Verdana;
+	background-color: #000000;
+	margin: 0;
+	padding: 0;
+	background-image: url("hieroglyphics.png");
+	
+}
+h1 {
+	color: white;
+	padding: 0px 100px;
+}
+header, nav, section, footer {
+	background-color: brown;
+	
+	margin: 20px 0;
+}
+
+#wrap {
+	
+	margin: 0 auto;
+}
+figure {
+	background-color: black;
+	text-align: center;
+	width: 250px;
+	padding: 10px 10px 5px 10px;
+	border: 1px solid white;
+	float: left;
+	margin: 20px;
+}
+figcaption {
+	color:white;
+	font-family: Arial;
+	padding: 5px;
+}
+
+figure img {
+	width: 100%;
+}
+
+
+article {
+	padding: 0px 100px 0px 100px;
+}
+
+section{
+	background-color: #ddd;
+	height: 500px;
+	margin: 100px;
+}
+
+section {
+	background-color: bisque;
+	overflow: auto;
+}
