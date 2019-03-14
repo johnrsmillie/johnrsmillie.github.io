@@ -1,0 +1,110 @@
+body {
+	font-family: Verdana;
+	background-color: #00c7ff;
+	margin: 0;
+	padding: 0;
+	
+	
+	
+
+}
+#wrap {
+	width: 70%;
+	margin: 0 auto;
+}
+
+header img {
+	width:35%;
+}
+
+
+header {
+	
+	padding: 10px;
+	text-align: center;
+	
+
+	
+}
+
+nav {
+	background-color: magenta;
+	padding: 10px;
+	text-align: center;
+	font-size: 20px;
+	font-family: Comic Sans MS;
+	
+}
+
+nav li {
+	display: inline;
+	/*padding: 20px;*/
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+nav a {
+	color: white;
+	text-decoration: none;
+	padding: 10px 30px;
+}
+
+nav a:hover {
+	color:white;
+	background-color: purple;
+}
+
+section {
+	color: white;
+	padding: 10px;
+	background-color: white;
+	overflow: auto;
+	font-family: Comic Sans MS
+	
+}
+
+.bgpic {
+	width: 40%;
+	float: right;
+	/*only can float left and right, NOT MIDDLE*/
+}
+
+.bgpic1 {
+	width: 5%;
+	float:top left;
+	
+	/*only can float left and right, NOT MIDDLE*/
+}
+.bgpic2 {
+	width: 30%;
+	float:left;
+	
+	/*only can float left and right, NOT MIDDLE*/
+}
+
+
+.button {
+	background-color:magenta;
+	color: white;
+	text-decoration: none;
+	padding: 10px;
+	border-radius: 7px;
+	margin: 15px 0;
+	display:inline-block;
+}
+
+a.button:hover{
+	background-color: purple;
+	color: white;
+}
+
+
+footer {
+	background-color: purple;
+	color: white;
+	padding: 10px;
+	text-align: center;
+}
