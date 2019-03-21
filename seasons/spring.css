@@ -1,0 +1,110 @@
+body {
+	font-family: papyrus;
+	margin: 0;
+	padding: 0;
+	background-image: url("background2.jpg");
+	background-size: 100%;
+	background-position: bottom center;
+}
+
+#wrap {
+	width: 70%;
+	margin: 0 auto;
+}
+
+header img {
+	width:25%;
+}
+
+
+header {
+	background-color: white;
+	padding: 10px;
+	text-align: center;
+
+	
+
+	
+}
+
+nav {
+	background-color: #36ff4a;
+	padding: 10px;
+	text-align: center;
+	font-size: 20px;
+	font-family: Comic Sans MS;
+	
+}
+
+nav li {
+	display: inline;
+	/*padding: 20px;*/
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+nav a {
+	color: white;
+	text-decoration: none;
+	padding: 10px 30px;
+}
+
+nav a:hover {
+	color:black;
+	background-color: #0da300;
+}
+
+section {
+	color: white;
+	padding: 10px;
+	background-color: #bcffa8;
+	overflow: auto;
+	font-family: Comic Sans MS
+	
+}
+
+.bgpic {
+	width: 40%;
+	float: right;
+	/*only can float left and right, NOT MIDDLE*/
+}
+
+.bgpic1 {
+	width: 5%;
+	float:top left;
+	
+	/*only can float left and right, NOT MIDDLE*/
+}
+.bgpic2 {
+	width: 30%;
+	float:left;
+	
+	/*only can float left and right, NOT MIDDLE*/
+}
+
+
+.button {
+	background-color:green;
+	color: #14ff00;
+	text-decoration: none;
+	padding: 10px;
+	border-radius: 7px;
+	margin: 15px 0;
+	display:inline-block;
+}
+
+a.button:hover{
+	background-color: #14ff00;
+	color: black;
+}
+
+
+footer {
+	background-color: #0da300;
+	color: white;
+	padding: 10px;
+	text-align: center;
+}
